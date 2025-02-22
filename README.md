@@ -1,15 +1,17 @@
-Wizualizacja ruchu statków na podstawie danych GPS z pliku. Program daje możliwość wyboru jaki statek (LRIMOShipNo) oraz dni, z których powinna byc wyświetlona trasa.
+Visualization of Ship Movement Based on GPS Data from a File
 
-main.py - plik główny programu;
+The program allows users to select a specific ship (LRIMOShipNo) and choose the days for which the route should be displayed.
 
-TdealWithFile - klasa do wczytywania danych z pliku i wykonania operacji na nich;
+main.py – Main program file
 
-Tinterface - klasa do tworzenia obiektów w oknie;
+TdealWithFile – Class for loading data from a file and performing operations on it
 
-Tsymulator - klasa pochodna od klasy Tinterface, dodanie metod do zapisywania mapy;
+Tinterface – Class for creating objects in the window
 
-Tplot - klasa tworząca wykres;
+Tsymulator – Derived class from Tinterface, adding methods for saving the map
 
-Troute - klasa do filtrowania i dopełniania koordynat oraz pobierania adresu;
+Tplot – Class for generating charts
 
-baza_statki_cargo_wybrane.csv - plik z danymi.
+Troute – Class for filtering and completing coordinates, as well as retrieving addresses
+
+baza_statki_cargo_wybrane.csv – File containing the data
